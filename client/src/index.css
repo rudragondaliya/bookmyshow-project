@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.searchBar{
+  width: 60%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+input::placeholder{
+  position: absolute;
+  left: 45px;
+}
+
+.searchIcon{
+  position: absolute;
+  margin-left: 20px;
+  font-size: 18px;
+
+}
+
+.signBtn{
+  background-color: #EB4E62 !important;
+  color: white !important;
+}
+
+swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.premiere{
+  background-color: #2B3149;
+  padding: 0px;
+}
+
+.banner {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)),
+                   center center / cover no-repeat;
+      height: 600px;
+      color: white;
+      display: flex;
+      align-items: center;
+    }
+
+    .poster-img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .rating-box {
+      background-color: rgba(25, 24, 24, 0.1) !important;
+      border-radius: 8px;
+      padding: 10px 15px;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+        .btn-pink {
+      background-color: #ff3366 !important;
+      border: none !important;
+    }
+
+
+  .review-btn{
+     background-color: #F84464 !important;
+     color: white !important;
+  }
+
+  .box{
+    background-color: #1e1d1d !important;
+    backdrop-filter: blur(12px);
+    width: 300px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  

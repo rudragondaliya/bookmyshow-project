@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  overflow: hidden;
+}
+
+.sidebar{
+  height: 100vh;
+  width: 250px;
+  border-right: 4px solid #e94752;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  overflow: auto;
+}
+
+.sub-head{
+  font-size: 14px;
+  margin-left: 24px !important;
+}
+
+
+.link-btn {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.link-btn:hover {
+  background-color: #e94752;
+}
+
+.link-btn a{
+    color: black;
+    font-size: 18px;
+}
+
+.link-btn:hover a {
+  color: white; 
+}
+
+
+.main-pannel{
+  height: 100vh;
+  margin-left: 20px;
+  background-color: white !important;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.navbar{
+  border-top-left-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.main-login{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e94752;
+}
+
+.login{
+ 
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 50%;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.submit{
+  background-color: #e94752;
+  
+}
+
+.card{
+  height: 150px;
+  width: 280px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.icon-box-1{
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   border-radius: 50%;
+   background-color: #f8d9dc;
+}
+
+.icon-box-2{
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   border-radius: 50%;
+   background-color: #e9d1fa;
+}
+
+
+
+.icon-box-3{
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   border-radius: 50%;
+   background-color: #fdfd8d;
+}
+
+
+.icon-box-4{
+   height: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 60px;
+   border-radius: 50%;
+   background-color: #b3fcb5;
+}
+
+.card-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+ .bi-ticket-fill{
+  color: #e94752;
+  font-size: 30px;
+
+ }
+
+.actions{
+  height: 420px;
+  width: 100%;
+  border-radius: 30px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.chart{
+  height: 420px;
+}
