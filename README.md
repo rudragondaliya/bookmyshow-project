@@ -4,13 +4,13 @@
 
 ### Home Page
 
-* Displays a curated list or main feed of movies.
-* Allows quick browsing of popular or trending movies.
+ Displays a curated list or main feed of movies.
+ Allows quick browsing of popular or trending movies.
 
 ### Movie Detail Page
 
-* Provides comprehensive information about individual movies.
-* Displays title, description, cast, ratings, and other details.
+ Provides comprehensive information about individual movies.
+ Displays title, description, cast, ratings, and other details.
 
 ### Responsive Design
 
