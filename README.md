@@ -1,13 +1,5 @@
 ---
 
-# 🎬 Movie Explorer
-
-## Description
-
-**Movie Explorer** is a React-based web application that allows users to browse and explore movies with detailed information. The application features a clean, intuitive interface to provide a smooth movie discovery experience. Users can search for specific titles, view cast information, ratings, and other relevant details.
-
----
-
 ## Features
 
 ### Home Page
@@ -100,7 +92,6 @@ npm start
 ## Contributing
 
 Contributions are what make the open-source community amazing!
-To contribute:
 
 1. Fork the project
 2. Create your feature branch:
@@ -130,4 +121,3 @@ git push origin feature/AmazingFeature
 This project is **MIT Licensed**. See the [LICENSE](LICENSE) file for details.
 
 
-Do you want me to do that next?
